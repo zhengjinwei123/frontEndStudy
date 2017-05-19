@@ -40,3 +40,7 @@
 
 > 恩,感觉后端基础技能基本掌握了(php,nodejs,sql,nosql,linux,c++,python...),什么时候合格了，我就给自己买一个红色大苹果(肾7),吼哈!!!!!!
 
+### 学习资料
+
+[慕课网](http://www.imooc.com/u/114832/courses?sort=publish)
+
