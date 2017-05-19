@@ -19,6 +19,7 @@
 7.react（可选）
 8.sass (css 模块化，可选)
 9.less (css 模块化，可选)
+10.Font Awesome(字体库)
 ```
 
 ### 全栈路线
