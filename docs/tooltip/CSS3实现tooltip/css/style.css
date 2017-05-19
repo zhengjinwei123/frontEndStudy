@@ -186,8 +186,8 @@ a:link,a:visited{text-decoration:none;
 }
 
 .tooltip-effect-1:hover .tooltip-content i {
-	-webkit-transform: rotate3d(1,1,1,0);
-	transform: rotate3d(1,1,1,0);
+	-webkit-transform: rotate3d(1,1,1,0deg);
+	transform: rotate3d(1,1,1,0deg);
 }
 
 /* Arrow */

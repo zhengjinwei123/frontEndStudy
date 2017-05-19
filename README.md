@@ -43,6 +43,7 @@
 
 ### 学习资料
 
-[慕课网](http://www.imooc.com/u/114832/courses?sort=publish)
-[css3速查表](http://www.css88.com/book/css/properties/text/text-size-adjust.htm)
+##### [慕课网](http://www.imooc.com/u/114832/courses?sort=publish)
+##### [css3速查表](http://www.css88.com/book/css/properties/text/text-size-adjust.htm)
+##### [张鑫旭博客](http://www.zhangxinxu.com/wordpress/2016/04/know-about-html-download-attribute/)
 
