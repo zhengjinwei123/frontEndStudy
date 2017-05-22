@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>css3 实现页面平滑过渡效果</title>
+    <meta http-equiv="x-ua-compatible" content="IE-edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--<link href="http://fonts.gooleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet" type="text/css">-->
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="st-container">
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1">
+            <a href="#st-panel-1" >panel1</a>
+
+            <input type="radio" name="radio-set"  id="st-control-2">
+            <a href="#st-panel-2" >panel2</a>
+
+            <input type="radio" name="radio-set"  id="st-control-3">
+            <a href="#st-panel-3" >panel3</a>
+
+            <input type="radio" name="radio-set"  id="st-control-4">
+            <a href="#st-panel-4" >panel4</a>
+
+            <input type="radio" name="radio-set"  id="st-control-5">
+            <a href="#st-panel-5" >panel5</a>
+            <div class="st-scroll">
+                <section class="st-panel" id="st-panel-1">
+                    <div class="st-desc" data-icon="H"></div>
+                    <h2>panel1</h2>
+                    <p>hello panel1</p>
+                </section>
+                <section class="st-panel st-color" id="st-panel-2">
+                    <div class="st-desc" data-icon="2"></div>
+                    <h2>panel2</h2>
+                    <p>hello panel2</p>
+                </section>
+                <section class="st-panel st-color" id="st-panel-3">
+                    <div class="st-desc" data-icon="x"></div>
+                    <h2>panel3</h2>
+                    <p>hello panel3</p>
+                </section>
+                <section class="st-panel" id="st-panel-4">
+                    <div class="st-desc" data-icon="C"></div>
+                    <h2>panel4</h2>
+                    <p>hello panel4</p>
+                </section>
+                <section class="st-panel" id="st-panel-5">
+                    <div class="st-desc" data-icon="B"></div>
+                    <h2>panel5</h2>
+                    <p>hello panel5</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
