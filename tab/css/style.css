@@ -9,23 +9,20 @@
     height:98px;
     border:1px solid #eee;
     overflow: hidden;
-    position:relative;
     margin:10px auto;
 }
 
 .notice-tit{
     height:27px;
-    width:100%;
-    position:absolute;
-    top:0;
+    position:relative;
     background: #f7f7f7;
 }
-#notice-tit ul{
+.notice-tit ul{
     position:absolute;
     width:301px;
     left:-1px;
 }
-#notice-tit li{
+.notice-tit li{
     padding: 0 1px;
     display: block;
     width:58px;
@@ -38,7 +35,7 @@
     text-align: center;
 }
 
-#notice-tit li.select{
+.notice-tit li.select{
     background: #FFFFFF;
     border-bottom-color: #FFFFFF;
     border-left: 1px solid #eee;
@@ -46,12 +43,23 @@
     padding: 0;
     font-weight: bolder;
 }
-#notice-tit li a:link,
-#notice-tit li a:visited{
+.notice li a:link,
+.notice li a:visited{
     text-decoration: none;
     color:#000000;
 }
-
-#notice-tit li a:hover{
+.notice li a:hover{
     color: #f90;;
+}
+
+.notice-con .mod{
+    margin:10px 6px;
+    text-align: center;
+}
+
+.notice-con .mod li{
+    float: left;
+    width:143px;
+    height:25px;
+    overflow: hidden;
 }
