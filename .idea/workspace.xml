@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93111b8c-c129-43cd-8d1c-20e3eaa6c952" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tab/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tab/index.html" afterPath="$PROJECT_DIR$/tab/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tab/css/style.css" afterPath="$PROJECT_DIR$/tab/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tab/js/script.js" afterPath="$PROJECT_DIR$/tab/js/script.js" />
     </list>
     <ignored path="frontEndStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +50,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tab/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31477517" vertical-offset="0" max-vertical-offset="934">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.40471092" vertical-offset="0" max-vertical-offset="934">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -87,8 +84,8 @@
         <option value="$PROJECT_DIR$/pagetransition/css/style.css" />
         <option value="$PROJECT_DIR$/data1.json" />
         <option value="$PROJECT_DIR$/tab/index.html" />
-        <option value="$PROJECT_DIR$/tab/js/script.js" />
         <option value="$PROJECT_DIR$/tab/css/style.css" />
+        <option value="$PROJECT_DIR$/tab/js/script.js" />
       </list>
     </option>
   </component>
@@ -543,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tab/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31477517" vertical-offset="0" max-vertical-offset="934">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.40471092" vertical-offset="0" max-vertical-offset="934">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>

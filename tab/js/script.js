@@ -17,13 +17,21 @@ window.onload = function () {
         titles[i].id = i;
         titles[i].onclick = function(){
             // 清除所有li上的class
-            for(var j=0;j<titles.length;j++){
-                titles[j].className="";
-                divs[j].style.display = "none";
+            var self = this;
+            setTimeout(function(){
+                run(self);
+            },10);
+
+            function run(obj){
+                for(var j=0;j<titles.length;j++){
+                    titles[j].className="";
+                    divs[j].style.display = "none";
+                }
+                //设置当前为高亮显示
+                obj.className = "select";
+                divs[obj.id].style.display="block";
             }
-            //设置当前为高亮显示
-            this.className = "select";
-            divs[this.id].style.display="block";
+
         }
     }
 };
