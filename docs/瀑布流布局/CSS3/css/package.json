@@ -1,0 +1,83 @@
+{
+  "http://192.168.2.22:9001/": {
+    "1": {
+      "DefaultSid": 10001,
+      "Platform": 1,
+      "ServerList": [
+        {
+          "ServerId": 10001,
+          "ServerName": "版署测试1",
+          "ServerStatus": 1,
+          "SortId": 1,
+          "WSIP": "192.168.2.150",
+          "WSPort": "8001",
+          "OpenTime": 1480471200
+        }
+      ]
+    },
+    "2": {
+      "DefaultSid": 0,
+      "Platform": 2,
+      "ServerList": [
+        {
+          "ServerId": 20001,
+          "ServerName": "谭鹏(内部测试)",
+          "ServerStatus": 1,
+          "SortId": 1,
+          "WSIP": "192.168.2.132",
+          "WSPort": "8101",
+          "OpenTime": 1480384800
+        },
+        {
+          "ServerId": 20002,
+          "ServerName": "郑经纬(内部测试)",
+          "ServerStatus": 4,
+          "SortId": 2,
+          "WSIP": "192.168.2.150",
+          "WSPort": "9501",
+          "OpenTime": 1480384800
+        }
+      ]
+    },
+    "__whiteList": {
+      "1": {
+        "ips": {
+          "__len": 1,
+          "192.168.2.22": 1
+        },
+        "uid": {
+          "123456": 1,
+          "789456": 1,
+          "__len": 2
+        }
+      },
+      "2_20001": {
+        "ips": {
+          "__len": 1,
+          "127.0.0.1": 1
+        },
+        "uid": {
+          "__len": 0
+        }
+      },
+      "2_20002": {
+        "ips": {
+          "__len": 1,
+          "127.0.0.1": 1
+        },
+        "uid": {
+          "__len": 0
+        }
+      },
+      "2_20003": {
+        "ips": {
+          "__len": 1,
+          "127.0.0.1": 1
+        },
+        "uid": {
+          "__len": 0
+        }
+      }
+    }
+  }
+}
