@@ -51,6 +51,17 @@ body{
 	width:80%;
 	height:800px;
 	margin:0 auto;
-	padding: 42px 5px 5px 5px;
-	box-shadow: 4px 4px 4px #404803;
+	padding: 42px 0 0 0;
+	/*box-shadow: 4px 4px 4px #404803;*/
+}
+
+.footer{
+	border-top: 1px solid red;
+	background: #3e3e3e;
+	position: absolute;
+	bottom: 68px;
+	width:80%;
+	margin:0 auto;
+	height:60px;
+	text-align: center;
 }
