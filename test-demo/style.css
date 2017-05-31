@@ -66,3 +66,30 @@ body{
 	height:60px;
 	text-align: center;
 }
+.leftbar{
+	position: absolute;
+	left:0;
+	top:0;
+	width:200px;
+	height:600px;
+	border:1px solid #8e8e8e;
+}
+
+.content .body{
+	position: relative;
+	padding: 5px 5px;
+}
+
+.content .body ul{
+	list-style: none;
+}
+.content .body ul li{
+	display: inline-block;
+	float: left;
+	width:200px;
+	padding: 10px 20px;
+	text-align: left;
+}
+.content .body ul li a{
+	text-decoration: none;
+};
