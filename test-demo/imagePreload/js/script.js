@@ -9,19 +9,29 @@ $(function(){
 	var index=0,len=imgs.length,count=0;
 	var $progress = $(".progress");
 
-	$.each(imgs,function(i,src){
-		var imgObj = new Image();
+	// $.each(imgs,function(i,src){
+	// 	var imgObj = new Image();
 
-		$(imgObj).on("load error",function(){
-			$progress.html(Math.round((count+1) / len * 100 )+"%");
+	// 	$(imgObj).on("load error",function(){
+	// 		$progress.html(Math.round((count+1) / len * 100 )+"%");
 			
-			if(count >= len-1){
-				$(".loading").fadeOut();
-			}
-			count++;
-		});
+	// 		if(count >= len-1){
+	// 			$(".loading").fadeOut();
+	// 		}
+	// 		count++;
+	// 	});
 
-		imgObj.src = src;
+	// 	imgObj.src = src;
+	// })
+	// 
+	
+	$.preload(imgs,{
+		each:function(count){
+			$progress.html(Math.round((count+1) / len * 100 )+"%");
+		},
+		all:function(){
+			$(".loading").fadeOut();
+		}
 	})
 
 	$(".btn").on("click",function(){
