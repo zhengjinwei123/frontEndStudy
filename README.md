@@ -50,6 +50,10 @@
 ##### [jquery api 速查] (http://jquery.cuishifeng.cn/)
 ##### [divcss5.com] (http://www.divcss5.com/rumen/r125.shtml)
 
+### 工具
+
+##### [css/html/js 在线压缩工具] (http://tool.oschina.net/jscompress)
+
 ### 在线资料
 
 ##### [normalize.css](https://necolas.github.io/normalize.css/)
