@@ -47,6 +47,7 @@
 ##### [css3速查表](http://www.css88.com/book/css/properties/text/text-size-adjust.htm)
 ##### [张鑫旭博客](http://www.zhangxinxu.com/wordpress/2016/04/know-about-html-download-attribute/)
 ##### [github] (https://legolasng.github.io/2017/05/15/send-mail-automatically/)
+##### [jquery api 速查] (http://jquery.cuishifeng.cn/)
 
 ### 在线资料
 
