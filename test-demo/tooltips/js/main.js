@@ -1,0 +1,9 @@
+requirejs.config({
+	baseUrl:'./js',
+	paths:{
+		jquery:"../../../public/jquery/jquery-3.1.1.min"
+	}
+});
+requirejs(['jquery','validate'],function($,validate){
+	console.log(validate.isEqual(1,2));
+});
