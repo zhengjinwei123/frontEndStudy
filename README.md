@@ -46,9 +46,10 @@
 ##### [慕课网](http://www.imooc.com/u/114832/courses?sort=publish)
 ##### [css3速查表](http://www.css88.com/book/css/properties/text/text-size-adjust.htm)
 ##### [张鑫旭博客](http://www.zhangxinxu.com/wordpress/2016/04/know-about-html-download-attribute/)
-##### [github] (https://legolasng.github.io/2017/05/15/send-mail-automatically/)
-##### [jquery api 速查] (http://jquery.cuishifeng.cn/)
-##### [divcss5.com] (http://www.divcss5.com/rumen/r125.shtml)
+##### [github](https://legolasng.github.io/2017/05/15/send-mail-automatically/)
+##### [jquery api 速查](http://jquery.cuishifeng.cn/)
+##### [divcss5.com](http://www.divcss5.com/rumen/r125.shtml)
+##### [w3cplus](http://www.w3cplus.com/css3/define-font-size-with-css3-rem)
 
 ### 工具
 
