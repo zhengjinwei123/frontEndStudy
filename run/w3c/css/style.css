@@ -15,6 +15,10 @@ strong{
 	font-weight:800;
 }
 
+h2, h3, h4, h5, h6, em {
+    font-weight: bold;
+}
+
 //------------------------------header-----------------------------------
 div#wrapper{
 	padding:0;
@@ -26,7 +30,7 @@ div#wrapper{
 
 div#header_index{
 	margin:0 0 0 12px;
-	width:100%-12px;
+	width:96%;
 	height:100px;
 	display: block;	
 	background-color:#fdfcf8;
@@ -35,7 +39,7 @@ div#header_index{
 div#weblink{
 	display:block;
 	float:left;
-	width:60%;
+	width:40%;
 	height:100px;
 	background : transparent url(../imags/bg.png) 0 -150px no-repeat;
 }
@@ -43,13 +47,12 @@ div#weblink:hover{
 	cursor:pointer;
 	display:block;
 	float:left;
-	width:60%;
+	width:40%;
 	height:100px;
 	background : transparent url(../imags/bg.png) 0 -250px no-repeat;
 }
 
 div#searchui{
-	margin:0;
 	padding:0;
 	width:30%;
 	height:100px;
@@ -57,10 +60,10 @@ div#searchui{
 	background-color:transparent;
 }
 
-#search-content{
+div#searchui #search-content{
 	padding:0;
 	margin:30px 0;
-	width:200px;
+	width:60%;
 	height:24px;
 	line-height: 24px;
 	outline: none;
@@ -71,14 +74,17 @@ div#searchui{
 	padding:0;
 	margin-top:30px;
 	float:left;
-	width:40px;
+	margin-left:2px;
+	width:10%;
 	height:26px;
-	border:1px solid #ccc;
+	border:none;
+	background-color:#AE4141;
+	color:#fff;
 }
 .search-btn:hover{
 	cursor: pointer;
-	border:1px solid red;
-	color:red;
+	border:none;
+	color:#fff;
 }
 
 #search-content:focus{
@@ -88,17 +94,71 @@ div#searchui{
 
 /***---------------------main body-----------------------------*****/
 #main-body{
+	display:block;
 	padding:0;
 	border:1px solid #ccc;
 	margin:0 20px;
 	width:98%;
-	height:800px;
+	height:auto;
 }
 
-.menu{
+#main-body .menu{
 	width:100%;
 	height:50px;
 	background-color:#E8E7E3;
+}
+#main-body #content{
+	width:100%;
+	height:1800px;
+	background-color:#FCFDF8;
+}
+#main-body #content .leftmenu{
+	float:left;
+	width:15%;
+	height:97%;
+	border:1px solid #ccc;
+	border-left: none;
+	border-top:none;
+	background-color:#FCFDF8;
+	overflow: hidden;
+}
+#main-body #content #maincontent{
+	float:left;
+	width:70%;
+	height:97%;
+	border:none;
+	background-color:#FCFDF8;
+}
+#main-body #content #siderbar{
+	float:right;
+	width:14%;
+	height:97%;
+	border:1px solid #ccc;
+	border-top:none;
+	background-color:#FCFDF8;
+}
+#main-body #content #footer{
+	text-align:center;
+	display:block;
+	float:left;
+	width:100%;
+	height:3%;
+	clear: both;
+    background-color: #E8E7E3;
+    color:#777777;
+    font-family: PingFangSC-Regular, '微软雅黑', Verdana, Arial, '宋体';
+}
+#last{
+	color:#777777;
+	width:100%;
+	height:60px;
+	background-color:transparent;
+	display:block;
+	font-family: PingFangSC-Regular, '微软雅黑', Verdana, Arial, '宋体';
+	text-align:center;
+}
+#last p{
+	margin-top:10px;
 }
 
 #main-body .menu ul{
@@ -135,49 +195,72 @@ div#searchui{
 }
 
 //--------------------leftmenu--------------------------//content
-.content{
-	width:100%;
-	height:100%;
-	display:block;
-	background-color:#ccc;
+
+
+#main-body #content .leftmenu h2{
+	font-size: 14px;
+    margin: 0;
+    padding: 10px 0 5px 10px;
+    color: #000;
+    display: block;
+    border-bottom: 0px solid #ddd;
+    font-family: '微软雅黑';
 }
-.leftmenu{
-	float:left;
-	width:200px;
-	height:auto;
-	border:1px solid #ccc;
-	border-left: none;
-	background-color:#fff;
-}
-.leftmenu h2{
-	margin-top:10px;
-	font-size:16px;
-	margin-bottom: 10px;
-}
-.leftmenu ul{
+#main-body #content.leftmenu ul{
 	list-style-type:none;
 }
-.leftmenu ul li{
+#main-body #content .leftmenu ul li{
 	display:inline-block;
 	float:left;
-	width:196px;
+	width:98%;
 	height:26px;
 	font-size:16px;
 	line-height:16px;
 	text-align:left;
 	padding:5px 0 5px 5px;
 }
-.leftmenu ul li:hover{
+#main-body #content .leftmenu ul li:hover{
 	cursor:pointer;
 	background-color:#AAAAAA;
 	color:#fff;
 }
-.leftmenu ul li a{
+#main-body #content .leftmenu ul li a{
 	text-decoration:none;
 	color:#777777;
 	width:196px;
 	height:26px;
 }
-.leftmenu ul li a:hover{
+#main-body #content .leftmenu ul li a:hover{
 	color:#fff;
 }
+
+#main-body #content .leftmenu h2#link-about{
+	margin-top: 20px;
+    margin-bottom: 15px;
+}
+#main-body #content .leftmenu h2#link-about #link-help{
+	font-size: 14px;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    color: #000;
+    display: block;
+}
+#main-body #content .leftmenu h2#link-about a,
+#main-body #content .leftmenu h2#link-help a {
+    display: inline;
+    padding: 0;
+    font-size: 14px;
+    border-bottom: 0px solid #ddd;
+    text-decoration: none;
+    color: #0479A7;
+}
+
+#main-body #content .leftmenu h2#link-about a:hover,
+#main-body #content .leftmenu h2#link-help a:hover{
+	text-decoration: underline;
+    color: #000;
+    background: transparent;
+}
+
+//-----------------------中间主体部分------------------------------
