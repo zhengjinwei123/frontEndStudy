@@ -158,12 +158,22 @@
         return false;
     };
 
+    function myTrim(x) {
+        return x.replace(/^\s+|\s+$/gm, '');
+    }
+
+    // 内容搜索
+    $("#form-search > button").on("click", function () {
+        var val = myTrim($("#input-search").val());
+        alert(val)
+    });
 
     _.extend(exports, {
         location: location,
         byteLength: byteLength,
         timeFormat: TimeFormat,
         fix2num: fix2num,
-        dateFormat: dateFormat
+        dateFormat: dateFormat,
+        myTrim: myTrim
     });
 });
