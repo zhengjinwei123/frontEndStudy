@@ -1,0 +1,61 @@
+2017-08-10 14:50:48 746 [180168]  uncaughtException:ReferenceError: settings is not defined
+    at Object.<anonymous> (E:\lxh\git_pro\ali_blog\app.js:18:16)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+2017-08-10 14:50:59 624 [197364]  uncaughtException:ReferenceError: express is not defined
+    at Object.<anonymous> (E:\lxh\git_pro\ali_blog\app.js:25:9)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+2017-08-10 14:51:11 675 [165168]  uncaughtException:ReferenceError: app is not defined
+    at Object.<anonymous> (E:\lxh\git_pro\ali_blog\app.js:49:23)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+2017-08-10 14:51:31 194 [202044]  uncaughtException:ReferenceError: app is not defined
+    at Object.<anonymous> (E:\lxh\git_pro\ali_blog\app.js:80:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+2017-08-10 15:01:01 892 [202068]  uncaughtException:ReferenceError: app is not defined
+    at Object.<anonymous> (E:\lxh\git_pro\ali_blog\app.js:77:19)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+2017-08-10 15:01:10 207 [206276]  uncaughtException:Error: Route.get() requires callback functions but got a [object Null]
+    at Route.(anonymous function) [as get] (E:\lxh\git_pro\ali_blog\node_modules\express\lib\router\route.js:202:15)
+    at Object.module.exports [as index] (E:\lxh\git_pro\ali_blog\routes\index.js:3:25)
+    at Object.<anonymous> (E:\lxh\git_pro\ali_blog\app.js:77:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
