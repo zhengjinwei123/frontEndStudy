@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+/*网站图标*/
+.web-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/haitun.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
+
+/*通用简单阴影设置*/
+.shadow-top {
+    box-shadow: 0 -2px 0 #272822;
+}
+
+.shadow-bottom {
+    box-shadow: 0 2px 0 #272822;
+}
+
+.shadow-left {
+    box-shadow: -2px 0 0 #272822;
+}
+
+.shadow-right {
+    box-shadow: 2px 0 0 #272822;
+}
+
+/*页面公用头部*/
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    background-color: #F8F8F8;
+    box-shadow: 0 1px 0 #74756e;
+}
+
+header > ul {
+    list-style-type: none;
+}
+
+header > ul > li {
+    padding: 2px 2px;
+    float: left;
+    display: inline-block;
+    width: 60px;
+    height: 48px;
+    margin-left: 5px;
+}
+
+header > ul > li:nth-of-type(2) {
+    width: 400px;
+}
+
+header > ul > li:nth-of-type(2) > form {
+    padding-top: 4px;
+    width: 100%;
+}
+
+header > ul > li:nth-of-type(2) > form > input[type="text"] {
+    float: left;
+    width: 80%;
+    text-blink: none;
+    outline: none;
+    box-sizing: border-box;
+    height: 34px;
+    font: 16px/18px arial;
+    line-height: 22px \9;
+    border: 1px solid #4b4d5e;
+}
+
+header > ul > li:nth-of-type(2) > form > input[type="text"]:hover {
+    border: 1px solid #d79046;
+}
+
+header > ul > li:nth-of-type(2) > form > button {
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 34px;
+    color: #fff;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border: none;
+}
+
+header > ul > li:nth-of-type(2) > form > button:hover {
+    background: #3247ff;
+}
+
+/*页面公用底部*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #F8F8F8;
+    box-shadow: 0 -1px 0 #74756e;
+}
+
+
+
+/*媒体查询*/
+
+/*iphone6 plus*/
+@media screen and (max-width: 414px) {
+    header > ul > li:nth-of-type(2) {
+        width: 200px;
+    }
+    header > ul > li:nth-of-type(2) > form > button {
+        font-size:10px;
+    }
+}

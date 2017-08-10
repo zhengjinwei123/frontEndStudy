@@ -1,5 +1,5 @@
 requirejs.config({
-    baseUrl: '/javascripts',
+    baseUrl: '/js',
     
     map: {
         '*': {
