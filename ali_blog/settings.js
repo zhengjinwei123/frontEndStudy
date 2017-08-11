@@ -22,5 +22,5 @@ module.exports = {
         connectionLimit: 3,
         syslog: true
     },
-    webName: "帮你记"
+    webName: "海豚网"
 };
