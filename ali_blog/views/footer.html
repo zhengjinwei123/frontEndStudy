@@ -1,6 +1,47 @@
 
 <footer>
+    <ul>
+        <li>
+            <a href="#">举报</a>
+            <div id="report">
 
+            </div>
+        </li>
+        <li>
+            <a href="#">意见反馈</a>
+            <div id="feedback">
+
+            </div>
+        </li>
+        <li>
+            <a href="#" data-toggle="modal" data-target="#myContractModal">联系我</a>
+            <div id="contract1">
+                <ul>
+                    <li class="contract contract-weixin"></li>
+                    <!--<li class="contract contract-weixin-money"></li>-->
+                </ul>
+            </div>
+        </li>
+    </ul>
 </footer>
+
+
+<div class="modal fade" id="myContractModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog center-block" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel3">赞助一下</h4>
+                <i class="glyphicon glyphicon-qrcode" style="color:red"></i>
+            </div>
+            <div class="row" id="contract-dialog">
+                <ul>
+                    <li class="contract-wx-money"></li>
+                    <li class="contract-zfb-money"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

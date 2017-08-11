@@ -1,10 +1,12 @@
+var PageHandler = require("../handler/pageHandler");
 
-var Settings = require("../settings");
+module.exports = function (App) {
+    App.route('/index').get(function (req, res, next) {
+        res.render('index.html', PageHandler.page({}))
+    });
 
-module.exports = function(App){
-    App.route('/index').get(function(req,res,next){
-        res.render('index.html',{
-            title: Settings.webName
-        })
+    App.route('/search').post(function (req, res, next) {
+        var key = req.body.key;
+        res.json(key);
     });
 };

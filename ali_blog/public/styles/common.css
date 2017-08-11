@@ -103,15 +103,126 @@ header > ul > li:nth-of-type(2) > form > button:hover {
 header > ul > li:nth-of-type(2) > form > button:active{
     font-size:16px;
 }
+header > ul > li:nth-of-type(3){
+    margin-top:5px;
+}
+header > ul > li:nth-of-type(3) > a{
+    font-size:1.2rem;
+}
+
+/*下拉菜单*/
+.pull-down-menu {
+    width:100px;
+    height:auto;
+    display: block;
+    position:absolute;
+}
+
 
 /*页面公用底部*/
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 30px;
     background-color: #F8F8F8;
     box-shadow: 0 -1px 0 #74756e;
+}
+
+footer > ul{
+    list-style-type: none;
+    width:50%;
+    height:90%;
+    /*border:1px solid red;*/
+    margin: 0 auto;
+}
+
+#contract1{
+    display: none;
+    position: absolute;
+    right:20px;
+    bottom:30px;
+    width:126px;
+    height: 135px;
+    padding: 3px 3px;
+    border-radius: 6px 6px 6px 6px;
+    background-color: #7e7175;
+    box-shadow: 2px 2px 2px #7C7E7E;
+
+}
+
+#contract1 > span{
+    position: absolute;
+
+}
+.contract{
+    width:120px;
+    height:120px;
+    background-size:120px 120px;
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+
+.contract-wx-money{
+    background-image: url(../images/wx-money.png);
+}
+.contract-zfb-money{
+    background-image: url(../images/zfb-money.jpg);
+}
+
+.contract-weixin{
+    background-image: url(../images/qrcode-weixin.png);
+}
+.contract-weixin-money{
+    background-image: url(../images/qrcode-weixin-money.png);
+}
+footer > ul{
+    list-style: none;
+}
+footer > ul > li:nth-of-type(3) > a:hover ~ #contract1 {
+    display: block;
+}
+
+footer > ul > li:nth-of-type(3){
+    position: relative;
+}
+
+#contract1 > ul{
+    list-style-type: none;
+}
+#contract1 > ul > li{
+    float: left;
+    margin-top:5px;
+}
+
+footer > ul > li{
+    text-align: center;
+    margin:2px 0 1px 2px;
+    font-size:14px;
+    width:calc(100% / 6 - 3px);
+    height:calc(100% - 3px);
+    float: left;
+    /*border:1px solid blue;*/
+}
+
+#contract-dialog{
+    width:100%;
+    height:100%;
+}
+
+#contract-dialog > ul{
+    list-style-type: none;
+    /*margin-left:20px;*/
+    width:220px;
+    margin:0 auto;
+}
+#contract-dialog > ul > li{
+    float: left;
+    width:200px;
+    height:242px;
+    background-size:200px 240px;
+    background-repeat: no-repeat;
+    margin-left:10px;
 }
 
 

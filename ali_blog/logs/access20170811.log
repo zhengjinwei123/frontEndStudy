@@ -1,0 +1,11 @@
+2017-08-11 12:38:56 854 [272296]  uncaughtException:TypeError: Cannot read property 'user' of null
+    at new PageHandler (E:\lxh\git_pro\frontEnd\ali_blog\handler\pageHandler.js:9:27)
+    at Function.getInstance (E:\lxh\git_pro\frontEnd\ali_blog\handler\pageHandler.js:20:16)
+    at Object.<anonymous> (E:\lxh\git_pro\frontEnd\ali_blog\handler\pageHandler.js:44:30)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)

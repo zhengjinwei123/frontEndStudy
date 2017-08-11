@@ -164,8 +164,30 @@
 
     // 内容搜索
     $("#form-search > button").on("click", function () {
-        var val = myTrim($("#input-search").val());
-        alert(val)
+        var form = $("#form-search").serializeObject();
+        var search = form['input-search'];
+
+        if(_.isEmpty(search)){
+            return false;
+        }
+
+        url = "/search";
+        var param = {
+            key:search
+        };
+
+        $("body").showLoading();
+        $.post(url,param,function(data){
+            console.log(data)
+        },'json').complete(function(){
+            $("body").hideLoading();
+        }).error(function(){
+            $("body").hideLoading();
+        });
+    });
+
+    $(function () {
+        $('[data-toggle="popover"]').popover()
     });
 
     _.extend(exports, {
